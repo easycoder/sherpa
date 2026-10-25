@@ -1,5 +1,5 @@
 # Diff
 
-**No app code changed.** Added `specs/allspeak-idb-plugin.md`, a proposed `idb` plugin spec: vocabulary, syntax, schema and upgrades, CRUD, queries, atomic batches, cursors, blobs, the Storage API, error model and implementation notes. `PLAN.md` is unchanged from the previous turn.
+**No app code changed.** Repository hygiene is fixed: `conversation/` is untracked and ignored, and `requests/` (containing `allspeak-idb-plugin.md`) is ignored. Workspace writes are working again.
 
-Read the spec next. Its open questions at the end need a decision before implementation: domain name, unindexed scans, read batches, blob ownership, and whether to ship it bundled or incubate it here first.
+Nothing to reload. The spec is at `requests/allspeak-idb-plugin.md`; the next work is the blob/photo bridge and the Sherpa Phase 0 spike.
